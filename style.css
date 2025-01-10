@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'norse-bold';
+    src: url(assets/font-style/Norse-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', 'sans-serif';
+}
+
+
+section {
+    height: 100vh;
+    width: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'norse-bold', 'arial';
+    font-size: 5rem;
+    background-color: rgba(0, 0, 0, 0.355);
+    color: white;
+    margin-top: 10rem;
+    padding: .7rem;
+}
+
+.credit{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+img {
+    width: 23%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar-bg{
+    position: relative;
+    background-image: url(assets/picture/liam-burnett-blue.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 100vh;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(assets/picture/masaaki-komori.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    margin: 0 0 1.8rem 2.1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.login-text{
+    margin: 1.5rem 0 0 2.1rem;
+    font-size: 1rem;
+}
+.login-text a{
+    color: #ff72dc;
+    text-decoration: none;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.50);
+    height: 16rem;
+    width: 70vw;
+    margin-top: 1rem;
+    padding: 20px 0;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 2.1rem;
+    width: 35rem;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    font-size: .7rem;
+    margin-right: 3.7rem;
+}
+
+input{
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 13rem;
+    height: 1.9rem;
+    border: 1px solid #E5E7EB;
+    appearance: none;
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
+button{
+    background-color: #ff72dc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    padding: 10px 14px;
+    margin: 1.6rem 0 0 2.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
